@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Petclinic test suite" parallel="tests" thread-count="1" >
+    <test name="Header tests">
+        <classes>
+            <class name="HeaderTest" />
+        </classes>
+    </test>
+    <test name="Homepage tests">
+        <classes>
+            <class name="HomePageTest" />
+        </classes>
+    </test>
+    <test name="Find Owners page tests">
+        <classes>
+            <class name="FindOwnersPageTest" />
+        </classes>
+    </test>
+    <test name="Veterinarians page tests">
+        <classes>
+            <class name="VeterinariansPageTest" />
+        </classes>
+    </test>
+</suite>
