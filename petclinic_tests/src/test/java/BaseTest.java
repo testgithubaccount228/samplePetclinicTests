@@ -19,11 +19,11 @@ public abstract class BaseTest {
     @BeforeClass
     public void setup() {
         driver = DriverFactory.getDriver();
-        driver.get(PropertyFactory.getProperty("envUrl"));
         homePage = PageFactory.initElements(driver, HomePage.class);
         header = PageFactory.initElements(driver, Header.class);
         veterinariansPage = PageFactory.initElements(driver, VeterinariansPage.class);
         findOwnersPage = PageFactory.initElements(driver, FindOwnersPage.class);
+        driver.get(PropertyFactory.getProperty("envUrl"));
     }
 
     @AfterClass
