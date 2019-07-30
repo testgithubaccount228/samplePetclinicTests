@@ -4,7 +4,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Header {
+public class Header extends BasePage {
     private final String LOGO_XPATH = "//a[@class = 'navbar-brand']";
     private final String HOME_BUTTON_XPATH = "//a[@title = 'home page']";
     private final String VETERINARIANS_BUTTON_XPATH = "//a[@title = 'veterinarians']";

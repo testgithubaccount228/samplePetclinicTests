@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-public class HomePage {
+public class HomePage extends BasePage {
     private final String WELCOME_LABEL_XPATH = "//img[@class='img-responsive']";
 
     @FindBy(xpath = WELCOME_LABEL_XPATH)

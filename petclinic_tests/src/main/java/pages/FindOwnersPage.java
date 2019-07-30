@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class FindOwnersPage {
+public class FindOwnersPage extends BasePage {
     private final String FIND_OWNERS_LOGO_XPATH = "//h2[text() = 'Find Owners']";
 
     @FindBy(xpath = FIND_OWNERS_LOGO_XPATH)

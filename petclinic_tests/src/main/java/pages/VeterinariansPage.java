@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class VeterinariansPage {
+public class VeterinariansPage extends BasePage {
     private final String VETERINARIANS_LOGO_XPATH = "//h2[text() = 'Veterinarians']";
 
     @FindBy(xpath = VETERINARIANS_LOGO_XPATH)

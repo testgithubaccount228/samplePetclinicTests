@@ -5,6 +5,7 @@ import java.util.NoSuchElementException;
 public class HeaderTest extends BaseTest {
     @Test
     public void checkThatHeaderIsDisplayed() throws NoSuchFieldException {
+        header.waitSeconds(10);
         header.checkThatHeaderIsDisplayed();
     }
 
